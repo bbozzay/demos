@@ -5,6 +5,7 @@ featured_image: "/images/Pope-Edouard-de-Beaumont-1844.jpg"
 tags: ["scene"]
 title: "Product Single"
 menu: "main"
+layout: "product"
 ---
 
 Three hundred and forty-eight years, six months, and nineteen days ago
