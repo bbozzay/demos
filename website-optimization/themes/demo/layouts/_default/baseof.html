@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>{{ block "title" . }}{{ with .Params.Title }}{{ . }} | {{ end }}{{ .Site.Title }}{{ end }}</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+
+    <!-- {{ block "styles" . }}{{ partialCached "styles" . }}{{ end }} -->
+
+    <!-- <link href="/dist/css/vendor/bootstrap.css" rel="stylesheet">
+    <link href="/dist/css/templates/home.css" rel="stylesheet">
+    <link href="/dist/css/templates/landing.css" rel="stylesheet">
+
+
+    <link href="/dist/css/components/navbar.css" rel="stylesheet">
+    <link href="/dist/css/components/carousel.css" rel="stylesheet"> -->
+  </head>
+
+  <body>
+    {{ partial "navbar.html" . }}
+    <main class="pb7" role="main">
+      {{ block "main" . }}{{ end }}
+    </main>
+    {{ partial "footer.html" . }}
+    {{ partial "scripts.html" . }}
+  </body>
+</html>
