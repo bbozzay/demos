@@ -6,9 +6,13 @@
 
 ## Resources from this lesson
 Downloads (pre-compiled only)
-* Bootstrap example sections: https://getbootstrap.com/docs/4.5/examples/
-* Bootstrap core: https://getbootstrap.com/docs/4.5/getting-started/download/
 
-## Components
+### Vendor
+* Compiled "Download" https://getbootstrap.com/docs/4.5/getting-started/download/
+
+### Bootstrap Components
+* "Download Examples" https://getbootstrap.com/docs/4.5/examples/
+
+### Non-Bootsrap Components
 * https://codyhouse.co/library
 * Portfolio: https://codyhouse.co/gem/expandable-project-presentation
