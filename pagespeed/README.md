@@ -13,6 +13,14 @@ Downloads (pre-compiled only)
 ### Bootstrap Components
 * "Download Examples" https://getbootstrap.com/docs/4.5/examples/
 
-### Non-Bootsrap Components
-* https://codyhouse.co/library
-* Portfolio: https://codyhouse.co/gem/expandable-project-presentation
+### Community Bootstrap templates
+Product Single:
+https://github.com/StartBootstrap/startbootstrap-new-age
+
+Blog Single:
+https://github.com/StartBootstrap/startbootstrap-clean-blog
+
+Service:
+https://github.com/StartBootstrap/startbootstrap-stylish-portfolio
+<!-- * https://codyhouse.co/library -->
+<!-- * Portfolio: https://codyhouse.co/gem/expandable-project-presentation -->
