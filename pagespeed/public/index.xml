@@ -2,96 +2,96 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Home on Demo</title>
-    <link>https://example.com/</link>
+    <link>https://bbozzay.github.io/demos/public/</link>
     <description>Recent content in Home on Demo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 09 Apr 2017 10:58:08 -0400</lastBuildDate>
     
-	<atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://bbozzay.github.io/demos/public/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Blog Single</title>
-      <link>https://example.com/blog-single/</link>
+      <link>https://bbozzay.github.io/demos/public/blog-single/</link>
       <pubDate>Sun, 09 Apr 2017 10:58:08 -0400</pubDate>
       
-      <guid>https://example.com/blog-single/</guid>
+      <guid>https://bbozzay.github.io/demos/public/blog-single/</guid>
       <description>Three hundred and forty-eight years, six months, and nineteen days ago to-day, the Parisians awoke to the sound of all the bells in the triple circuit of the city, the university, and the town ringing a full peal.
 The sixth of January, 1482, is not, however, a day of which history has preserved the memory. There was nothing notable in the event which thus set the bells and the bourgeois of Paris in a ferment from early morning.</description>
     </item>
     
     <item>
       <title>Product Single</title>
-      <link>https://example.com/product/</link>
+      <link>https://bbozzay.github.io/demos/public/product/</link>
       <pubDate>Sun, 09 Apr 2017 10:58:08 -0400</pubDate>
       
-      <guid>https://example.com/product/</guid>
+      <guid>https://bbozzay.github.io/demos/public/product/</guid>
       <description>Three hundred and forty-eight years, six months, and nineteen days ago to-day, the Parisians awoke to the sound of all the bells in the triple circuit of the city, the university, and the town ringing a full peal.
 The sixth of January, 1482, is not, however, a day of which history has preserved the memory. There was nothing notable in the event which thus set the bells and the bourgeois of Paris in a ferment from early morning.</description>
     </item>
     
     <item>
       <title>Service Single</title>
-      <link>https://example.com/service-single/</link>
+      <link>https://bbozzay.github.io/demos/public/service-single/</link>
       <pubDate>Sun, 09 Apr 2017 10:58:08 -0400</pubDate>
       
-      <guid>https://example.com/service-single/</guid>
+      <guid>https://bbozzay.github.io/demos/public/service-single/</guid>
       <description>Three hundred and forty-eight years, six months, and nineteen days ago to-day, the Parisians awoke to the sound of all the bells in the triple circuit of the city, the university, and the town ringing a full peal.
 The sixth of January, 1482, is not, however, a day of which history has preserved the memory. There was nothing notable in the event which thus set the bells and the bourgeois of Paris in a ferment from early morning.</description>
     </item>
     
     <item>
       <title>Blog</title>
-      <link>https://example.com/blog/</link>
+      <link>https://bbozzay.github.io/demos/public/blog/</link>
       <pubDate>Thu, 02 Mar 2017 12:00:00 -0500</pubDate>
       
-      <guid>https://example.com/blog/</guid>
+      <guid>https://bbozzay.github.io/demos/public/blog/</guid>
       <description>Articles are paginated with only three posts here for example. You can set the number of entries to show on this page with the &amp;ldquo;pagination&amp;rdquo; setting in the config file.</description>
     </item>
     
     <item>
       <title>Services Index</title>
-      <link>https://example.com/services/</link>
+      <link>https://bbozzay.github.io/demos/public/services/</link>
       <pubDate>Thu, 02 Mar 2017 12:00:00 -0500</pubDate>
       
-      <guid>https://example.com/services/</guid>
+      <guid>https://bbozzay.github.io/demos/public/services/</guid>
       <description>Articles are paginated with only three posts here for example. You can set the number of entries to show on this page with the &amp;ldquo;pagination&amp;rdquo; setting in the config file.</description>
     </item>
     
     <item>
       <title>Shop</title>
-      <link>https://example.com/shop/</link>
+      <link>https://bbozzay.github.io/demos/public/shop/</link>
       <pubDate>Thu, 02 Mar 2017 12:00:00 -0500</pubDate>
       
-      <guid>https://example.com/shop/</guid>
+      <guid>https://bbozzay.github.io/demos/public/shop/</guid>
       <description>Articles are paginated with only three posts here for example. You can set the number of entries to show on this page with the &amp;ldquo;pagination&amp;rdquo; setting in the config file.</description>
     </item>
     
     <item>
       <title>About</title>
-      <link>https://example.com/about/</link>
+      <link>https://bbozzay.github.io/demos/public/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/about/</guid>
+      <guid>https://bbozzay.github.io/demos/public/about/</guid>
       <description>Illustration from Victor Hugo et son temps (1881)   The Hunchback of Notre-Dame (French: Notre-Dame de Paris) is a French Romantic/Gothic novel by Victor Hugo, published in 1831. The original French title refers to Notre Dame Cathedral, on which the story is centered. English translator Frederic Shoberl named the novel The Hunchback of Notre Dame in 1833 because at the time, Gothic novels were more popular than Romance novels in England.</description>
     </item>
     
     <item>
       <title>Contact</title>
-      <link>https://example.com/contact/</link>
+      <link>https://bbozzay.github.io/demos/public/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/contact/</guid>
+      <guid>https://bbozzay.github.io/demos/public/contact/</guid>
       <description>This is an example of a custom shortcode that you can put right into your content. You will need to add a form action to the the shortcode to make it work. Check out Formspree for a simple, free form service.</description>
     </item>
     
     <item>
       <title>Landing</title>
-      <link>https://example.com/landing/</link>
+      <link>https://bbozzay.github.io/demos/public/landing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/landing/</guid>
+      <guid>https://bbozzay.github.io/demos/public/landing/</guid>
       <description>The Hunchback of Notre-Dame (French: Notre-Dame de Paris) is a French Romantic/Gothic novel by Victor Hugo, published in 1831. The original French title refers to Notre Dame Cathedral, on which the story is centered. English translator Frederic Shoberl named the novel The Hunchback of Notre Dame in 1833 because at the time, Gothic novels were more popular than Romance novels in England. The story is set in Paris, France in the Late Middle Ages, during the reign of Louis XI.</description>
     </item>
     

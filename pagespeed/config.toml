@@ -1,5 +1,5 @@
 title = "Demo"
-baseURL = "https://example.com"
+baseURL = "https://bbozzay.github.io/demos/public/"
 languageCode = "en-us"
 theme = "demo"
 

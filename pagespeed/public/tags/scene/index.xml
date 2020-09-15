@@ -2,41 +2,41 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Scene on Demo</title>
-    <link>https://example.com/tags/scene/</link>
+    <link>https://bbozzay.github.io/demos/public/tags/scene/</link>
     <description>Recent content in Scene on Demo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 09 Apr 2017 10:58:08 -0400</lastBuildDate>
     
-	<atom:link href="https://example.com/tags/scene/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://bbozzay.github.io/demos/public/tags/scene/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Blog Single</title>
-      <link>https://example.com/blog-single/</link>
+      <link>https://bbozzay.github.io/demos/public/blog-single/</link>
       <pubDate>Sun, 09 Apr 2017 10:58:08 -0400</pubDate>
       
-      <guid>https://example.com/blog-single/</guid>
+      <guid>https://bbozzay.github.io/demos/public/blog-single/</guid>
       <description>Three hundred and forty-eight years, six months, and nineteen days ago to-day, the Parisians awoke to the sound of all the bells in the triple circuit of the city, the university, and the town ringing a full peal.
 The sixth of January, 1482, is not, however, a day of which history has preserved the memory. There was nothing notable in the event which thus set the bells and the bourgeois of Paris in a ferment from early morning.</description>
     </item>
     
     <item>
       <title>Product Single</title>
-      <link>https://example.com/product/</link>
+      <link>https://bbozzay.github.io/demos/public/product/</link>
       <pubDate>Sun, 09 Apr 2017 10:58:08 -0400</pubDate>
       
-      <guid>https://example.com/product/</guid>
+      <guid>https://bbozzay.github.io/demos/public/product/</guid>
       <description>Three hundred and forty-eight years, six months, and nineteen days ago to-day, the Parisians awoke to the sound of all the bells in the triple circuit of the city, the university, and the town ringing a full peal.
 The sixth of January, 1482, is not, however, a day of which history has preserved the memory. There was nothing notable in the event which thus set the bells and the bourgeois of Paris in a ferment from early morning.</description>
     </item>
     
     <item>
       <title>Service Single</title>
-      <link>https://example.com/service-single/</link>
+      <link>https://bbozzay.github.io/demos/public/service-single/</link>
       <pubDate>Sun, 09 Apr 2017 10:58:08 -0400</pubDate>
       
-      <guid>https://example.com/service-single/</guid>
+      <guid>https://bbozzay.github.io/demos/public/service-single/</guid>
       <description>Three hundred and forty-eight years, six months, and nineteen days ago to-day, the Parisians awoke to the sound of all the bells in the triple circuit of the city, the university, and the town ringing a full peal.
 The sixth of January, 1482, is not, however, a day of which history has preserved the memory. There was nothing notable in the event which thus set the bells and the bourgeois of Paris in a ferment from early morning.</description>
     </item>
