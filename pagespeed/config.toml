@@ -1,5 +1,5 @@
 title = "Demo"
-baseURL = "https://bbozzay.github.io/demos/public/"
+baseURL = "/"
 languageCode = "en-us"
 theme = "demo"
 
