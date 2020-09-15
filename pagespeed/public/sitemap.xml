@@ -1,44 +1,23 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://example.com/blog/blog-single/</loc>
+    <loc>https://example.com/blog-single/</loc>
     <lastmod>2017-04-09T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://example.com/</loc>
+    <loc>https://example.com/product/</loc>
     <lastmod>2017-04-09T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://example.com/shop/product/</loc>
-    <lastmod>2017-04-09T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://example.com/tags/scene/</loc>
-    <lastmod>2017-04-09T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://example.com/services/service-1/</loc>
-    <lastmod>2017-04-09T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://example.com/tags/</loc>
+    <loc>https://example.com/service-single/</loc>
     <lastmod>2017-04-09T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -74,7 +53,7 @@
   <url>
     <loc>https://example.com/categories/</loc>
     <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -84,9 +63,30 @@
   </url>
   
   <url>
+    <loc>https://example.com/</loc>
+    <lastmod>2017-04-09T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://example.com/landing/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/tags/scene/</loc>
+    <lastmod>2017-04-09T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/tags/</loc>
+    <lastmod>2017-04-09T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0</priority>
   </url>
   
 </urlset>

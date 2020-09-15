@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Home on Demo</title>
@@ -13,32 +13,59 @@
     
     <item>
       <title>Blog Single</title>
-      <link>https://example.com/blog/blog-single/</link>
+      <link>https://example.com/blog-single/</link>
       <pubDate>Sun, 09 Apr 2017 10:58:08 -0400</pubDate>
       
-      <guid>https://example.com/blog/blog-single/</guid>
+      <guid>https://example.com/blog-single/</guid>
       <description>Three hundred and forty-eight years, six months, and nineteen days ago to-day, the Parisians awoke to the sound of all the bells in the triple circuit of the city, the university, and the town ringing a full peal.
 The sixth of January, 1482, is not, however, a day of which history has preserved the memory. There was nothing notable in the event which thus set the bells and the bourgeois of Paris in a ferment from early morning.</description>
     </item>
     
     <item>
       <title>Product Single</title>
-      <link>https://example.com/shop/product/</link>
+      <link>https://example.com/product/</link>
       <pubDate>Sun, 09 Apr 2017 10:58:08 -0400</pubDate>
       
-      <guid>https://example.com/shop/product/</guid>
+      <guid>https://example.com/product/</guid>
       <description>Three hundred and forty-eight years, six months, and nineteen days ago to-day, the Parisians awoke to the sound of all the bells in the triple circuit of the city, the university, and the town ringing a full peal.
 The sixth of January, 1482, is not, however, a day of which history has preserved the memory. There was nothing notable in the event which thus set the bells and the bourgeois of Paris in a ferment from early morning.</description>
     </item>
     
     <item>
       <title>Service Single</title>
-      <link>https://example.com/services/service-1/</link>
+      <link>https://example.com/service-single/</link>
       <pubDate>Sun, 09 Apr 2017 10:58:08 -0400</pubDate>
       
-      <guid>https://example.com/services/service-1/</guid>
+      <guid>https://example.com/service-single/</guid>
       <description>Three hundred and forty-eight years, six months, and nineteen days ago to-day, the Parisians awoke to the sound of all the bells in the triple circuit of the city, the university, and the town ringing a full peal.
 The sixth of January, 1482, is not, however, a day of which history has preserved the memory. There was nothing notable in the event which thus set the bells and the bourgeois of Paris in a ferment from early morning.</description>
+    </item>
+    
+    <item>
+      <title>Blog</title>
+      <link>https://example.com/blog/</link>
+      <pubDate>Thu, 02 Mar 2017 12:00:00 -0500</pubDate>
+      
+      <guid>https://example.com/blog/</guid>
+      <description>Articles are paginated with only three posts here for example. You can set the number of entries to show on this page with the &amp;ldquo;pagination&amp;rdquo; setting in the config file.</description>
+    </item>
+    
+    <item>
+      <title>Services Index</title>
+      <link>https://example.com/services/</link>
+      <pubDate>Thu, 02 Mar 2017 12:00:00 -0500</pubDate>
+      
+      <guid>https://example.com/services/</guid>
+      <description>Articles are paginated with only three posts here for example. You can set the number of entries to show on this page with the &amp;ldquo;pagination&amp;rdquo; setting in the config file.</description>
+    </item>
+    
+    <item>
+      <title>Shop</title>
+      <link>https://example.com/shop/</link>
+      <pubDate>Thu, 02 Mar 2017 12:00:00 -0500</pubDate>
+      
+      <guid>https://example.com/shop/</guid>
+      <description>Articles are paginated with only three posts here for example. You can set the number of entries to show on this page with the &amp;ldquo;pagination&amp;rdquo; setting in the config file.</description>
     </item>
     
     <item>
@@ -56,7 +83,7 @@ The sixth of January, 1482, is not, however, a day of which history has preserve
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://example.com/contact/</guid>
-      <description></description>
+      <description>This is an example of a custom shortcode that you can put right into your content. You will need to add a form action to the the shortcode to make it work. Check out Formspree for a simple, free form service.</description>
     </item>
     
     <item>
