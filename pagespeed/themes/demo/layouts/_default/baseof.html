@@ -6,21 +6,72 @@
     <title>{{ block "title" . }}{{ with .Params.Title }}{{ . }} | {{ end }}{{ .Site.Title }}{{ end }}</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
 
+    <script>
+      var observer = new MutationObserver(function(mutations){
+        for (var i=0; i < mutations.length; i++){
+          console.log(mutations[i])
+          for (var j=0; j < mutations[i].addedNodes.length; j++){
+            checkNode(mutations[i].addedNodes[j]);
+          }
+        }
+      });
+
+;
+      // observer.observe(document.documentElement, {
+      //   childList: true,
+      //   subtree: true
+      // });
+      let checkNode = function(addedNode) {
+        if (addedNode.nodeType === 1 && addedNode.tagName === 'IMG'){
+          console.log(addedNode)
+          addedNode.src = ""
+          // addedNode.src = optimizeSrc(addedNode.src)
+        }
+      }
+    </script>
+
+
+
+    <!-- Styles Here -->
+
+    <!-- {{ partial "styles.html" . }} -->
+    <!-- <script src="/dist/js/hello.js"></script> -->
+
+    <!-- <link rel="stylesheet" href="/dist/css/style_large.css"> -->
+    <link rel="stylesheet" href="/dist/css/style.css">
     <!-- Styles Here -->
 
 
-    <!-- Styles Here -->
   </head>
 
   <body>
     {{ partial "navbar.html" . }}
     <main class="pb7" role="main">
-      {{ block "main" . }}{{ end }}
+      <p>Hello!</p>
+      <img src="/images/notebook.jpg" />
+      <!-- {{ block "main" . }}{{ end }} -->
     </main>
-    {{ partial "footer.html" . }}
-    <!-- Scripts Here -->
+    <!-- {{ partial "footer.html" . }} -->
 
 
     <!-- Scripts Here -->
+
+    <!-- <script src="/dist/js/hello.js"></script> -->
+    <!-- <script src="/dist/js/hello_again.js"></script> -->
+    <!-- <script src="/dist/js/hello_large.js"></script> -->
+
+    <!-- Scripts Here -->
+
+    <script>
+      observer.observe(document.querySelector("p"), {
+        childList: true,
+        subtree: true
+      })
+      setTimeout(function() {
+        document.querySelector("p").innerText = "Mutated";
+      }, 2000);
+    </script>
+
+
   </body>
 </html>
