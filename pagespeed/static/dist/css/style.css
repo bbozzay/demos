@@ -1,3 +1,9 @@
 p {
-  color: red;
+  color: blue;
+}
+body {
+  font-size: 12px;
+}
+html {
+  font-size: 20px;
 }

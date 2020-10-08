@@ -1,77 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>{{ block "title" . }}{{ with .Params.Title }}{{ . }} | {{ end }}{{ .Site.Title }}{{ end }}</title>
-    <meta name="viewport" content="width=device-width,minimum-scale=1">
-
-    <script>
+     <script>
+      var startTime = new Date();
+      var lastNodeTime = new Date();
       var observer = new MutationObserver(function(mutations){
         for (var i=0; i < mutations.length; i++){
-          console.log(mutations[i])
+          // console.log("MUTATION", mutations)
           for (var j=0; j < mutations[i].addedNodes.length; j++){
             checkNode(mutations[i].addedNodes[j]);
           }
         }
       });
 
-;
-      // observer.observe(document.documentElement, {
-      //   childList: true,
-      //   subtree: true
-      // });
+      observer.observe(document.documentElement, {
+        childList: true,
+        subtree: true
+      });
+
       let checkNode = function(addedNode) {
-        if (addedNode.nodeType === 1 && addedNode.tagName === 'IMG'){
-          console.log(addedNode)
-          addedNode.src = ""
-          // addedNode.src = optimizeSrc(addedNode.src)
+        if (addedNode.outerHTML) {
+          console.table({ 
+            "Node HTML": addedNode.outerHTML,
+            "Time Since Last Node Added": new Date() - lastNodeTime,
+            "Added At": new Date() - startTime 
+          })
+          lastNodeTime = new Date();
         }
       }
+      document.addEventListener("DOMContentLoaded", () => {
+        console.log("DOMContentLoaded", (new Date() - startTime) + 120, "(Approx.)")
+        observer.disconnect();
+      })
+  </script> 
+  <script>
+    let results = {};
+    var performance_observer = new PerformanceObserver(list => {
+      list.getEntries().forEach(entry => {
+        // Display each reported measurement on console
+        // console.log(entry)
+        results[entry.name] = {
+          "start": entry.startTime,
+          "duration": entry.duration
+        }
+        console.table(results)
+      })
+    });
+    performance_observer.observe({entryTypes: ['frame', 'navigation', 'resource', 'mark', 'measure']});
+    performance.mark('registered-observer');
+    function clicked(elem) {
+      console.log("Clicked")
+      performance.mark('click-function-start');
+      // This function takes 3 seconds to run
+      performance.mark('click-function-end');
+      performance.measure('delay', 'click-function-start', 'click-function-end');
+    }
+  </script>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>Tab Title</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1" />
+    <!-- Styles Here -->
+    <!-- <script src="/dist/js/debug/performance.js"></script> -->
+    <script>
+      // delay(3000)
     </script>
-
-
-
+    <link rel="stylesheet" href="/dist/css/style.css" />
     <!-- Styles Here -->
-
-    <!-- {{ partial "styles.html" . }} -->
-    <!-- <script src="/dist/js/hello.js"></script> -->
-
-    <!-- <link rel="stylesheet" href="/dist/css/style_large.css"> -->
-    <link rel="stylesheet" href="/dist/css/style.css">
-    <!-- Styles Here -->
-
-
   </head>
 
   <body>
-    {{ partial "navbar.html" . }}
-    <main class="pb7" role="main">
-      <p>Hello!</p>
-      <img src="/images/notebook.jpg" />
-      <!-- {{ block "main" . }}{{ end }} -->
+    <main>
+      <!-- <h1>DevBoss.io</h1> -->
+      <!-- <img src="/images/services/portfolio-2.jpg" alt=""> -->
+      <h2>Before script src="delay.js"</h2>
+      <!-- <script>
+        delay(3000)
+      </script>
+      <h2>After Delay 3000</h2>
+      <h2>Before Delay 3200</h2>
+      <script>
+        delay(3200)
+      </script>
+      <h2>After Delay 3200</h2>
+      <h2>Before Delay 3100</h2>
+      <script>
+        delay(3100)
+      </script> -->
+      <script src="/dist/js/debug/delay.js"></script>
+      <h2>After script src="delay.js"</h2>
+      <h2>before console.log function call</h2>
+      <script>
+        console.log("No Delay Function Call")
+      </script>
+      <!-- <p>Code your way to freedom</p> -->
+      <!-- <button onclick="clicked()">Measure this Function</button> -->
+      <!-- Create a Node with  JS-->
+      <!-- <script>
+        let newElement = document.createElement("p");
+        newElement.className = "jsCreatedParagraph";
+        newElement.innerText = "JS Created Paragraph"
+        document.body.appendChild(newElement)
+      </script> -->
+
     </main>
-    <!-- {{ partial "footer.html" . }} -->
-
-
     <!-- Scripts Here -->
-
+    <!-- <script defer src="/dist/js/bye.js"></script> -->
     <!-- <script src="/dist/js/hello.js"></script> -->
-    <!-- <script src="/dist/js/hello_again.js"></script> -->
-    <!-- <script src="/dist/js/hello_large.js"></script> -->
+    <!-- <script async src="/dist/js/hello_again.js"></script> -->
+    <!-- <link rel="stylesheet" href="/dist/css/five.css" /> -->
+    <!-- <link rel="stylesheet" href="/dist/css/style.css" /> -->
 
     <!-- Scripts Here -->
-
-    <script>
-      observer.observe(document.querySelector("p"), {
-        childList: true,
-        subtree: true
-      })
-      setTimeout(function() {
-        document.querySelector("p").innerText = "Mutated";
-      }, 2000);
-    </script>
-
-
   </body>
 </html>
