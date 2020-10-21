@@ -32,29 +32,7 @@
         observer.disconnect();
       })
   </script> 
-  <script>
-    let results = {};
-    var performance_observer = new PerformanceObserver(list => {
-      list.getEntries().forEach(entry => {
-        // Display each reported measurement on console
-        // console.log(entry)
-        results[entry.name] = {
-          "start": entry.startTime,
-          "duration": entry.duration
-        }
-        console.table(results)
-      })
-    });
-    performance_observer.observe({entryTypes: ['frame', 'navigation', 'resource', 'mark', 'measure']});
-    performance.mark('registered-observer');
-    function clicked(elem) {
-      console.log("Clicked")
-      performance.mark('click-function-start');
-      // This function takes 3 seconds to run
-      performance.mark('click-function-end');
-      performance.measure('delay', 'click-function-start', 'click-function-end');
-    }
-  </script>
+
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
@@ -62,36 +40,26 @@
     <meta name="viewport" content="width=device-width,minimum-scale=1" />
     <!-- Styles Here -->
     <!-- <script src="/dist/js/debug/performance.js"></script> -->
-    <script>
-      // delay(3000)
-    </script>
     <link rel="stylesheet" href="/dist/css/style.css" />
+    <script src="/dist/js/debug/delay.js"></script>
+    <script>
+      delay(100)
+    </script>
     <!-- Styles Here -->
   </head>
 
   <body>
     <main>
-      <!-- <h1>DevBoss.io</h1> -->
-      <!-- <img src="/images/services/portfolio-2.jpg" alt=""> -->
-      <h2>Before script src="delay.js"</h2>
-      <!-- <script>
-        delay(3000)
+      <script>
+        setTimeout(function() {
+          let nodeAfter = document.querySelector(".nodeAfter");
+          nodeAfter.innerText = "You Found Me";
+        }, 50)
       </script>
-      <h2>After Delay 3000</h2>
-      <h2>Before Delay 3200</h2>
+      <h1 class="nodeAfter">You can't find me</h1>
+
       <script>
-        delay(3200)
-      </script>
-      <h2>After Delay 3200</h2>
-      <h2>Before Delay 3100</h2>
-      <script>
-        delay(3100)
-      </script> -->
-      <script src="/dist/js/debug/delay.js"></script>
-      <h2>After script src="delay.js"</h2>
-      <h2>before console.log function call</h2>
-      <script>
-        console.log("No Delay Function Call")
+        delay(2000)
       </script>
       <!-- <p>Code your way to freedom</p> -->
       <!-- <button onclick="clicked()">Measure this Function</button> -->
